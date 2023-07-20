@@ -1077,16 +1077,22 @@ button:focus {
 
 .doctors-item .bottom i:hover {
     color: #fff;
-    background-color: #831d83
+    background-color: #831d83;
 }
 
 .doctors-item .bottom h3 {
-    font-size: 22px;
+    font-size: 18.5px;
     margin-bottom: 6px
 }
 
 .doctors-item .bottom h3 a {
-    color: #831d83
+    color: #831d83;
+    font-size: revert;
+}
+
+#dr-name-details-new{
+    font-size: 0.6em;
+    padding-left: 0.5em;
 }
 
 .doctors-item .bottom h3 a:hover {
@@ -1094,13 +1100,13 @@ button:focus {
 }
 
 .doctors-item .bottom span {
-    display: block
+    display: block;
 }
 
 .choose-area {
     position: relative;
     z-index: 1;
-    background-color: #f6fcfe
+    background-color: #f6fcfe;
 }
 
 .choose-area .choose-shape img {
@@ -4610,6 +4616,11 @@ section.client {
 	background-color: #eee;
 
 }
+.client101{
+    padding:4em 0em;
+	background-color: #edfafe;
+}
+
 section.client .section-title {
 	margin-bottom: 6em;
 }
