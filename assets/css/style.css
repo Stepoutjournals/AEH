@@ -730,6 +730,10 @@ button:focus {
     text-align: center
 }
 
+.about-img{
+    margin-top: -32em;
+}
+
 .about-area .about-content {
     padding-top: 100px;
     padding-bottom: 100px
