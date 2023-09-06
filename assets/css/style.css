@@ -113,6 +113,10 @@ button:focus {
     visibility: hidden
 }
 
+#new-move{
+    margin-right: 4em;
+}
+
 .common-btn .one:after {
     position: absolute;
     content: '';
